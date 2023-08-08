@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: SportingGrotesque-Regular
+font link: https://velvetyne.fr/fonts/sporting-grotesque/
+font author: Lucas Le Bihan
+font author site: http://lucaslebihan.fr/
+
+
+icon designer: Icons By Alfredo
+icon designer link: /AlfredoCreates
+        
+{"bg":"#EADEFA","icon-gradient-0":"#E90DCA","icon-gradient-1":"#1536F1","font":"#23073F","slogan":"#371b53"}
+      

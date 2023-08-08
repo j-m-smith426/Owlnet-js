@@ -3,9 +3,16 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --bg: #EADEFA; 
+  --icon-gradient-0:#E90DCA; 
+  --icon-gradient-1:#1536F1; 
+  --font:#23073F; 
+  --slogan:#371b53;
+
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: --bg;
+  background-color: var(--bg);
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,7 +33,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }

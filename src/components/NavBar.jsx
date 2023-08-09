@@ -1,6 +1,10 @@
 // import React from 'react'
 import Icon from "../assets/owlnet-logo/cover.png"
 import "./NavBar.css";
+import { SearchBar } from "./SearchBar/SearchBar";
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import MessageIcon from '@mui/icons-material/Message';
+import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 
 function NavBar() {
   return (
@@ -9,12 +13,18 @@ function NavBar() {
             <img src={Icon} alt="Logo" className="logo_nav"/>
         </div>
         <div className="search_bar">
-            Search
+            <SearchBar />
         </div>
         <div className="menu">
-            <div>bell</div>
-            <div>message</div>
-            <div>profile</div>
+            <div>
+              <NotificationsIcon />
+            </div>
+            <div>
+              <MessageIcon />
+            </div>
+            <div>
+              <AccountCircleRoundedIcon />
+            </div>
         </div>
     </>
   )

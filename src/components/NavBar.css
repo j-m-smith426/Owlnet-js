@@ -19,6 +19,7 @@
 
 .search_bar {
     display: inline-flex;
+    justify-content: center;
     flex: 5;
     padding: 0 1rem;
 

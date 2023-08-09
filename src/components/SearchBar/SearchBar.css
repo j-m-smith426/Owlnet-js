@@ -1,0 +1,12 @@
+.search_bar_container{
+    display: flex;
+    justify-content: center;
+    flex: .8;
+}
+
+.search_bar_field {
+    padding-left: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    width: 80%;
+}

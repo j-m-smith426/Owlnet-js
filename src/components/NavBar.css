@@ -1,0 +1,25 @@
+.menu{
+    display: inline-flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.icon_container {
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.logo_nav {
+    /* position: absolute; */
+    height: 3rem;
+    width: 12rem;
+    /* object-position: 0rem -3.5rem; */
+    object-fit: cover;
+}
+
+.search_bar {
+    display: inline-flex;
+    flex: 5;
+    padding: 0 1rem;
+
+}

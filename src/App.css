@@ -1,6 +1,5 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px; */
   padding: 0rem 2rem;
   text-align: center;
 }
@@ -23,9 +22,20 @@
   height: auto;
 }
 
-.nav_container{
+.nav_container_row{
   height: 3rem;
+  background-color: var(--bg);
   border-bottom: 2px solid var(--font);
+}
+
+.nav_container_col{
+  display: inline-flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 

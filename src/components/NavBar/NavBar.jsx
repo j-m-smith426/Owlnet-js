@@ -1,7 +1,7 @@
 // import React from 'react'
-import Icon from "../assets/owlnet-logo/cover.png"
+import Icon from "../../assets/owlnet-logo/cover.png"
 import "./NavBar.css";
-import { SearchBar } from "./SearchBar/SearchBar";
+import { SearchBar } from "../SearchBar/SearchBar";
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MessageIcon from '@mui/icons-material/Message';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';

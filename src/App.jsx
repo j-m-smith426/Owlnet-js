@@ -2,7 +2,7 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import './App.css'
 
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar/NavBar'
 
 function App() {
 

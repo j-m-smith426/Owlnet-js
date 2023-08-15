@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import NewPost from '../Post/NewPost/NewPost'
+import LoadedPost from '../Post/LoadedPost/LoadedPost'
 const Home = () => {
   return (
     <div className='content_container'>
@@ -10,7 +11,7 @@ const Home = () => {
       <div className="new_post">
         <NewPost />
       </div>
-      <div className="post">Post</div>
+      <LoadedPost />
     </div>
   )
 }

@@ -58,3 +58,26 @@
     padding-right: 2rem;
     padding-bottom: 0.5rem;
 }
+
+.title_user {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title_user_name {
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.post {
+    border-bottom: 1px solid black;
+    min-height: 10rem;
+}
+
+.post_body {
+    padding: .5rem 1rem;
+    text-align: left;
+}

@@ -6,6 +6,11 @@
     position: sticky;
 }
 
+.title_block h1 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
 .content_container {
     display: block;
     position: relative;

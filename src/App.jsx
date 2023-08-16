@@ -5,6 +5,7 @@ import './App.css'
 
 import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
+import Menu from './components/Menu/Menu'
 
 function App() {
 
@@ -18,30 +19,7 @@ function App() {
         </Row>
         <Row>
           <Col xs={3}>
-            <nav className="sidebar">
-              <ul>
-                <li>
-                  <Link to={"/"}>
-                      Home
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/follow"}>
-                    Following
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/setting"}>
-                    Settings
-                  </Link>
-                </li>
-                <li>
-                  <Link to={"/discover"}>
-                    Discover
-                  </Link>
-                </li>
-              </ul>
-            </nav>
+            <Menu />
           </Col>
           <Col xs={6}>
             <Routes>

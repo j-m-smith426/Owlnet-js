@@ -1,0 +1,44 @@
+.sidebar > ul {
+    display: block;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    height: 20rem;
+}
+
+.link_block {
+    display: inline-flex;
+    flex: 1;
+    height: 5rem;
+    width: 100%;
+    /* text-align: center; */
+    justify-content: flex-start;
+    /* align-content: center; */
+    align-items: center;
+}
+
+.link_text {    
+    display: inline-flex;
+    margin: 0;
+    text-align: left;
+}
+
+.list_icon {
+    display: inline-flex;
+    /* flex: 1; */
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar a {
+    display: inline-flex;
+    flex: .8;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.sidebar li:active {
+background-color: var(--bg);
+}

@@ -6,6 +6,8 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
 import Menu from './components/Menu/Menu'
+import Trending from './components/Feed/Trending/Trending'
+import AdBlock from './components/Feed/AdBlock/AdBlock'
 
 function App() {
 
@@ -30,7 +32,11 @@ function App() {
               <Route path='/messages' element={<Home />} />
             </Routes>
           </Col>
-          <Col xs={3}>Feed</Col>
+          <Col xs={3}>
+            <Trending />
+            <AdBlock />
+            <AdBlock />
+          </Col>
         </Row>
       </Container>
 

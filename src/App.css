@@ -22,6 +22,19 @@
   height: auto;
 }
 
+.block {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 1rem;
+  padding: .5rem;
+}
+
+.ad {
+  display: block;
+  height: 15rem;
+}
+
 .nav_container_row{
   height: 3rem;
   background-color: var(--bg);

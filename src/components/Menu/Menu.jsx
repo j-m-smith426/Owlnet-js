@@ -1,6 +1,9 @@
 import React from 'react'
 import {Link } from 'react-router-dom'
 import HomeIcon from '@mui/icons-material/Home';
+import SettingsIcon from '@mui/icons-material/Settings';
+import PeopleIcon from '@mui/icons-material/People';
+import PublicIcon from '@mui/icons-material/Public';
 
 import "./Menu.css"
 const Menu = () => {
@@ -21,7 +24,7 @@ const Menu = () => {
                 <li className='link_block'>
                   <Link to={"/follow"}>
                     <div className="list_icon">
-                    <HomeIcon fontSize='large'/>  
+                    <PeopleIcon fontSize='large'/>  
                     </div>
                     <h3 className='link_text'>
 
@@ -32,7 +35,7 @@ const Menu = () => {
                 <li className='link_block'>
                   <Link to={"/setting"}>
                     <div className="list_icon">
-                    <HomeIcon fontSize='large'/>  
+                    <SettingsIcon fontSize='large'/>  
                     </div>
                     <h3 className='link_text'>
                         Settings
@@ -42,7 +45,7 @@ const Menu = () => {
                 <li className='link_block'>
                   <Link to={"/discover"}>
                     <div className="list_icon">
-                    <HomeIcon fontSize='large'/>  
+                    <PublicIcon fontSize='large'/>  
                     </div>
                    <h3 className='link_text'>
                     Discover
